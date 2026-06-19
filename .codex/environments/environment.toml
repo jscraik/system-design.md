@@ -54,8 +54,7 @@ icon = "run"
 command = '''
 set -euo pipefail
 
-echo "[codex] no run script found in package.json"
-exit 1
+npm run 'cli'
 '''
 
 [[actions]]
